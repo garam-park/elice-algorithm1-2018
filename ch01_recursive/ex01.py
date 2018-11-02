@@ -1,3 +1,8 @@
+'''
+k번째 숫자 찾기
+https://academy.elice.io/courses/339/lectures/2416/materials/3
+'''
+
 def findKth(myInput, k) :
     '''
     매 순간마다 k번째로 작은 원소를 리스트로 반환합니다.

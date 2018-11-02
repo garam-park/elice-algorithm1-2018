@@ -1,3 +1,8 @@
+'''
+올바른 괄호인지 판단하기
+https://academy.elice.io/courses/339/lectures/2416/materials/5
+'''
+
 def checkParen(p):
 
     if len(p) == 0:
