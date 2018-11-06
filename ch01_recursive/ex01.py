@@ -14,8 +14,7 @@ def findKth(myInput, k) :
     if length < k:
         return [-1]*(k-1)
     else :
-        tmp = findKth(myInput[0:length-1],k)
-        result = tmp
+        result = findKth(myInput[0:length-1],k)
         myInput.sort()
         result.append(myInput[k-1])
 
